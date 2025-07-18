@@ -1,0 +1,29 @@
+# === Node.js backend ===
+node_modules/
+.env
+*.log
+npm-debug.log*
+
+# === React frontend ===
+/Frontend/node_modules
+/Frontend/build
+/Frontend/.env
+
+# === Logs ===
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === VS Code settings ===
+.vscode/
+
+# === Coverage ===
+coverage/
+
+# === Misc ===
+*.pem
